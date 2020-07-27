@@ -29,7 +29,7 @@ catch (Exception $e) {
 
 
 
-$message = "<h1>Заявка с сайта питомник.вседлясада.com</h1>";
+$message = "<h1>Заявка с сайта корадуба.вседлясада.com</h1>";
 if (isset($_POST['name'])) {
 	$message .= "Имя: ".$_POST['name']."<br />";
 }

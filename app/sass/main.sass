@@ -366,7 +366,7 @@ body
 			transition: all 0.35s ease
 .present
 	background-image: url(../img/present-bg.jpg)
-	padding: 1.5rem 0
+	padding: 3rem 0
 	margin: 3rem 0
 	margin-bottom: 5rem
 	&__info
@@ -378,15 +378,32 @@ body
 		color: #fff
 	&__info-title
 		font-family: "Asket"
-		font-size: 34px
-		text-transform: uppercase
+		font-style: normal
+		font-weight: 800
+		font-size: 42px
+		line-height: 42px
 		margin-bottom: 1rem
 	&__info-subtitle
-		font-weight: bold
-		font-size: 36px
+		font-family: Roboto, sans-serif
+		font-style: normal
+		font-weight: 500
+		font-size: 32px
 		line-height: 150%
-		span
-			font-size: 54px
+		margin-bottom: 2rem
+	&__price_new
+		font-size: 52px
+		line-height: 150%
+		text-shadow: 5px 4px 10px rgba(63, 63, 63, 0.6)
+	&__price_old
+		text-decoration: line-through
+		font-family: Roboto, sans-serif
+		font-style: normal
+		font-weight: normal
+		font-size: 24px
+		line-height: 150%
+		color: #DFDFDF
+		text-shadow: 5px 4px 10px rgba(63, 63, 63, 0.6)
+		vertical-align: top
 	&__info-text
 		font-size: 20px
 		line-height: 200%
@@ -403,7 +420,7 @@ body
 	&__wrap-count
 		position: relative
 		display: inline-table
-		margin-right: 1rem
+		margin-right: 5px
 	&__wrap-count-img
 	&__wrap-count-text
 		position: absolute
@@ -416,9 +433,11 @@ body
 		text-transform: uppercase
 		color: #FFFFFF
 	&__wrap-text
+		font-style: normal
 		font-weight: 500
-		font-size: 16px
-		color: #FFF
+		font-size: 18px
+		line-height: 21px
+		color: #fff
 
 .about
 	margin: 3rem 0
@@ -484,6 +503,14 @@ body
 		margin-bottom: 2rem
 .advice
 	margin-bottom: 3rem
+	&__bg
+		width: 100%
+		img
+			max-width: 100%
+			width: 100%
+			height: auto
+			display: inline-block
+
 .answer
 	margin: 3rem 0
 	&__list
@@ -525,7 +552,7 @@ body
 		padding: 10px
 		background: linear-gradient( to right, #89DF86 0%, #488D45 76.56%)
 	&__wrap
-		padding: 4rem
+		padding: 5rem 4rem
 		background-color: #FFF
 
 	&__wrap-info
@@ -533,47 +560,42 @@ body
 		flex-direction: column
 	&__wrap-info-title
 		font-family: "Asket"
-		font-size: 32px
-		line-height: normal
+		font-size: 34px
+		font-weight: 800
+		font-size: 34px
+		line-height: 34px
 		text-transform: uppercase
-		margin-bottom: .5rem
+		margin-bottom: 1.5rem
 	&__wrap-info-subtitle
 		font-weight: 500
 		font-size: 20px
 		color: #969696
-		margin-bottom: 2rem
+		margin-bottom: 2.6rem
 	&__wrap-img
 		position: absolute
-		right: 0
-		width: 339px
-		height: fit-content
-		transform: translate(-10px, -10px)
-		bottom: 0
+		left: 50%
+		top: 0
+		transform: translate(-50%,-60px)
+		width: 297px
+	&__manager_image
+		width: fit-content
+		margin-bottom: 10px
 		img
-
-			width: 100%
+			width: 254px
 			height: auto
 			display: inline-block
-	&__engener
-		position: absolute
-		bottom: 0
-		right: 0
-		transform: translate(-328px, -100%)
-	&__engener_post
-		font-family: Roboto
+	&__manager_post
 		font-style: normal
 		font-weight: 300
 		font-size: 16px
-		line-height: 150%
-		color: #313131
-		margin: 0
-	&__engener_name
-		font-family: Roboto
+		color: #2E2B29
+		margin-bottom: 0!important
+	&__manager_name
 		font-style: italic
 		font-weight: 500
 		font-size: 18px
-		line-height: 150%
-		margin: 0
+		color: #2E2B29
+		margin-bottom: 0!important
 	&-form-input
 		margin-bottom: 2rem
 	&-form-btn
@@ -751,7 +773,7 @@ body
 	color: #FFF
 
 .container-fluid
-	max-width: 1260px
+	max-width: 1284px
 
 .img-responsive
 	display: block
