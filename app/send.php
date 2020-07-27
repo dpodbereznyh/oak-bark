@@ -7,6 +7,7 @@ require (__DIR__.'/smtp_grid/PHPMailer.php');
 require (__DIR__.'/smtp_grid/SMTP.php');
 
 $recipient_mail1 = "zakaz@vsedlyasada.com";
+//$recipient_mail1 = "pdv@apimedia.ru";
 
 $mail = new PHPMailer;
 try {
